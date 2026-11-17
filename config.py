@@ -12,3 +12,8 @@ OPTIMIZER_SEEDS = [7, 30, 1, 42, 100, 2024, 999, 1234, 555, 888]
 
 # Random state used to generate the revised nested CV partitions.
 CV_RANDOM_STATE = 42
+
+# Original experiments: run r (zero-indexed) uses optimizer seed
+# SEED_BASE + 37 * r, with SEED_BASE = 42.
+ORIGINAL_SEED_BASE = 42
+ORIGINAL_SEED_STRIDE = 37
